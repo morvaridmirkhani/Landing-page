@@ -1,0 +1,142 @@
+body {
+  font-family: 'Lobster', cursive;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #EEEEEE;
+  
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EEEEEE;
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+#nav-bar ul {
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#form-title {
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 120px;
+}
+
+#email {
+  width: 20vw;
+  padding: 4px;
+  
+}
+
+#submit {
+  border: 0px;
+  margin: 15px 0px;
+  background-color: #FF5252;
+  max-width: 80px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+#info { 
+  max-width: 50vw;
+  margin: 50px auto 0 auto;
+}
+
+
+#description {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  align-items: center;
+}
+
+.icon svg {
+  fill: #FF1744;
+}
+.des {
+  display: flex;
+  margin-left: 15px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+#how {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px;
+}
+
+#pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 200px;
+}
+
+.khoresht {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  border: 3px dotted;
+  width: calc(100% / 3);
+  font-family: 'Lobster Two', cursive;
+  margin: 30px 50px;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background-color: #F8BBD0;
+  border: 1px solid;
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+
+@media (max-height: 300px) {
+    body {
+      font-size: 12px;
+  }
+}
